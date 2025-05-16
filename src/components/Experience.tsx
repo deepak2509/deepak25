@@ -295,7 +295,7 @@ const Experience = () => {
             variant="outline" 
             className="border-data-green text-data-green hover:bg-data-green/10 animate-pulse-glow"
           >
-           <a href="https://drive.google.com/file/d/1uupb0ETxEbdrBmDk4chh2OOMjAiPvzvV/view?usp=share_link",target="_blank">Download Full Resume</a> 
+           <a href="https://drive.google.com/file/d/1uupb0ETxEbdrBmDk4chh2OOMjAiPvzvV/view?usp=share_link" target="_blank">Download Full Resume</a> 
           </Button>
         </div>
       </div>
