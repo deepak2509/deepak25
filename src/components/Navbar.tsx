@@ -40,12 +40,12 @@ const Navbar = () => {
                 <a href="#projects" className="text-lg font-medium hover:text-data-green transition-colors">Projects</a>
                 <a href="#skills" className="text-lg font-medium hover:text-data-green transition-colors">Skills</a>
                 <a href="#contact" className="text-lg font-medium hover:text-data-green transition-colors">Contact</a>
-                <a
-  href="https://drive.google.com/file/d/1uupb0ETxEbdrBmDk4chh2OOMjAiPvzvV/view?usp=share_link"
-  target="_blank"
-  rel="noopener noreferrer"
-  className="bg-gradient-to-r from-data-orange to-data-green text-white px-4 py-2 rounded-md flex items-center mt-4"
->
+                 <Button 
+                      variant="outline" 
+                      className="w-full hover:bg-data-green hover:text-white"
+                    >
+                      <a href="https://github.com/deepak2509" target="_blank">View full resume</a>
+                    </Button>
   <LayoutDashboard className="mr-2 h-4 w-4" />
   Download Full Resume
 </a>
