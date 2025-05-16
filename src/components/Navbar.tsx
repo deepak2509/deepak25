@@ -40,10 +40,17 @@ const Navbar = () => {
                 <a href="#projects" className="text-lg font-medium hover:text-data-green transition-colors">Projects</a>
                 <a href="#skills" className="text-lg font-medium hover:text-data-green transition-colors">Skills</a>
                 <a href="#contact" className="text-lg font-medium hover:text-data-green transition-colors">Contact</a>
-                <Button className="bg-gradient-to-r from-data-orange to-data-green text-white mt-4">
+                <Button asChild className="bg-gradient-to-r from-data-orange to-data-green text-white mt-4">
+                <a 
+                href="https://drive.google.com/file/d/1uupb0ETxEbdrBmDk4chh2OOMjAiPvzvV/view?usp=share_link" 
+                target="_blank" 
+                 rel="noopener noreferrer"
+                 >
                   <LayoutDashboard className="mr-2 h-4 w-4" />
-                  <a href="https://drive.google.com/file/d/1uupb0ETxEbdrBmDk4chh2OOMjAiPvzvV/view?usp=share_link">Download Full Resume</a> 
+                Download Full Resume
+                </a>
                 </Button>
+
               </div>
             </SheetContent>
           </Sheet>
