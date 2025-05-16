@@ -42,7 +42,7 @@ const Navbar = () => {
                 <a href="#contact" className="text-lg font-medium hover:text-data-green transition-colors">Contact</a>
                 <Button className="bg-gradient-to-r from-data-orange to-data-green text-white mt-4">
                   <LayoutDashboard className="mr-2 h-4 w-4" />
-                  Resume
+                  <a href="https://drive.google.com/file/d/1uupb0ETxEbdrBmDk4chh2OOMjAiPvzvV/view?usp=share_link">Download Full Resume</a> 
                 </Button>
               </div>
             </SheetContent>
