@@ -5,7 +5,7 @@ import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { HashRouter, Routes, Route } from "react-router-dom";
 import Index from "./pages/Index";
 import NotFound from "./pages/NotFound";
-import ScrollToHash from "./components/ScrolltoHash";
+import ScrolltoHash from "./components/ScrolltoHash";
 const queryClient = new QueryClient();
 
 const App = () => (
@@ -14,6 +14,7 @@ const App = () => (
       <Toaster />
       <Sonner />
       <HashRouter>
+        <ScrolltoHash />
         <Routes>
           <Route path="/" element={<Index />} />
           <Route path="*" element={<NotFound />} />
