@@ -40,16 +40,7 @@ const Navbar = () => {
                 <a href="#projects" className="text-lg font-medium hover:text-data-green transition-colors">Projects</a>
                 <a href="#skills" className="text-lg font-medium hover:text-data-green transition-colors">Skills</a>
                 <a href="#contact" className="text-lg font-medium hover:text-data-green transition-colors">Contact</a>
-                 <Button 
-                      variant="outline" 
-                      className="w-full hover:bg-data-green hover:text-white"
-                    >
-                      <a href="https://github.com/deepak2509" target="_blank">View full resume</a>
-                    </Button>
-  <LayoutDashboard className="mr-2 h-4 w-4" />
-  Download Full Resume
-</a>
-
+                 <Button variant="outline" className="w-full hover:bg-data-green hover:text-white"><a href="https://github.com/deepak2509" target="_blank">View full resume</a></Button>
               </div>
             </SheetContent>
           </Sheet>
