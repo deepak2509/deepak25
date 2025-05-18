@@ -10,7 +10,7 @@ const Navbar = () => {
       <div className="container mx-auto flex items-center justify-between py-4">
         <div className="flex items-center gap-2">
           <Database className="h-6 w-6 text-data-green" />
-          <span className="font-bold text-xl text-data-dark">DeepakGadde <span className="text-data-orange">Portfolio</span></span>
+          <span className="font-bold text-xl text-data-dark">DeepakkkGadde <span className="text-data-orange">Portfolio</span></span>
         </div>
         
         <nav className="hidden md:flex items-center gap-8">
